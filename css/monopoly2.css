@@ -12,7 +12,7 @@ Board Structure
 ********************************/
 .board {
     background: #EBEBE0;
-    width: 808px;
+    width: 650px;
 }
 .row{
     background: #fff;
@@ -21,10 +21,10 @@ Board Structure
 }
 #row1, #row3 {
 	height: 82px;
-    width: 788px;
+    width: 630px;
 }
 #row2 {
-	width: 788px;
+	width: 630px;
 
 }
 .col1{
@@ -42,19 +42,31 @@ Board positions - Box
 .box {
     background: #fff;
     border: 1px solid #000;
-	float: left;
-	height: 80px;
-	width: 75px;
+		float: left;
+		height: 80px;
+		width: 75px;
 }
-div #box-x:last-child {
-    margin-right: 0;
+#box-x:first-child {
 }
+#corner3 {
+		margin-right: 2px;
+}
+
+#box-mid {
+	background: #fff;
+	border: 1px solid #000;
+	float: center;
+	height: 488px;
+	width: 458px;
+}
+
 #box-x{
 	margin-right: 2px;
 }
 #box-y{
 	margin-bottom: 2px;
 }
+box-mid{}
 div #box-y:last-child {
     margin-bottom: 0;
 }
@@ -70,7 +82,7 @@ Board positions - Title
 	background: none;
 	border-color: #fff;
 }
-#pink{
+#corner, #corner3{
 	background: #ff4f72;
 }
 /*******************************
